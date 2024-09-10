@@ -5,6 +5,7 @@ import Display from "./Display";
 export default function Zustand() {
   return (
     <div>
+      <h2>Zustand</h2>
       <Counter />
       <Age />
       <Display />

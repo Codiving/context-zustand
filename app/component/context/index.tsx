@@ -7,6 +7,7 @@ export default function ContextAPI() {
   return (
     <CountProvider>
       <div>
+        <h2>Context API</h2>
         <Counter />
         <Age />
         <Display />
