@@ -3,7 +3,9 @@
 import useStore from "./store";
 
 const Age = () => {
-  const { age, ageIncrement, ageDecrement } = useStore();
+  const age = useStore(state => state.age);
+  const ageIncrement = useStore(state => state.ageIncrement);
+  const ageDecrement = useStore(state => state.ageDecrement);
   return (
     <div>
       <p>Age: {age}</p>
